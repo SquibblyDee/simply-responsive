@@ -2,12 +2,10 @@
 *{
     margin: 0px;
     padding: 0px;
-    /* outline: 1px red solid; */
     font-family: sans-serif;
    }
 
 h1{
-
     background-color: #B3B3B3;
     outline: 2px solid #D7CEB7;
     padding: 20px 0px;
@@ -15,7 +13,6 @@ h1{
 }
 
 p{
-
     background-color: #CCCCCC;
     outline: 2px solid #D7CEB7;
     padding: 20px 0px;
