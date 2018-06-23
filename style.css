@@ -2,18 +2,66 @@
 *{
     margin: 0px;
     padding: 0px;
-    outline: 1px red solid;
+    /* outline: 1px red solid; */
+    font-family: sans-serif;
    }
 
-/* GENERAL CONTAINER SETTINGS */
+h1{
 
-.container{
-
-    background-color: #245076;
-    width: 970px;
-    height: 500px;
+    background-color: #B3B3B3;
+    outline: 2px solid #D7CEB7;
+    padding: 20px 0px;
+    margin: 10px;
 }
 
-.container .content
+p{
 
-/* BEGIN CONTENT BOX (The whole site) */
+    background-color: #CCCCCC;
+    outline: 2px solid #D7CEB7;
+    padding: 20px 0px;
+    margin: 10px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.responsive-color-change p{
+    background-color: #FFFF99;
+    outline: 2px solid #D7CEB7;
+    padding: 20px 0px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 480px){
+    .sm-0 {
+        display: none;
+    }
+    
+    .sm-1 {
+        /* we will not display anything with the class .sm-1 if the screen's width is less than 480px */
+        display: 25%;
+     }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px){
+    .med-0 {
+        display: none;
+    }
+    
+    .med-2 {
+        /* anything with the class .med-1 will get 50% of the available width if the screen's width is greater than 480px */
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .lrg-0 {
+        display: none;
+    }
+    
+    .lrg-4 {
+        /* anything with the class .lrg-1 will get 100% of the available width if the screen's width is greater than 480px */
+        width: 100%;
+    }
+}
