@@ -1,0 +1,19 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 1px red solid;
+   }
+
+/* GENERAL CONTAINER SETTINGS */
+
+.container{
+
+    background-color: #245076;
+    width: 970px;
+    height: 500px;
+}
+
+.container .content
+
+/* BEGIN CONTENT BOX (The whole site) */
